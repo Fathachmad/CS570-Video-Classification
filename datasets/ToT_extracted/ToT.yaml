@@ -1,0 +1,8 @@
+path: ToT_extracted/YOLO
+train: images/train
+val:  images/val
+
+
+names: 
+  0: plane
+  1: bird
