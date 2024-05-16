@@ -1,0 +1,54 @@
+path: TOT/YOLO
+train: images/train
+val:  images/val
+
+
+names: 
+  0: aircraft
+  1: ant
+  2: badminton
+  3: bait
+  4: balloon
+  5: bat
+  6: bee
+  7: bery
+  8: bicycle
+  9: bird
+  10: boat
+  11: bowling
+  12: bronze_statue
+  13: car
+  14: chick
+  15: dice
+  16: drosophila
+  17: eagle
+  18: electric_bicycle
+  19: fish
+  20: fly
+  21: golf
+  22: hoodle
+  23: insect
+  24: jet
+  25: kite
+  26: Kongming_Lantern
+  27: ladybird
+  28: light
+  29: meteor
+  30: moon
+  31: Paraglider
+  32: people
+  33: pingpang
+  34: poker_box
+  35: sheep
+  36: shot
+  37: shrimp
+  38: shuttlecock
+  39: skateboard
+  40: snake_head
+  41: soccer
+  42: star
+  43: surfing
+  44: tennis
+  45: ufo
+  46: volleyball
+  47: yoyo
