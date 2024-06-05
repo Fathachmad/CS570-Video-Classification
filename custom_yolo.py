@@ -132,8 +132,6 @@ class MyDetectionTrainer(DetectionTrainer):
             serialized_ckpt
         )  # SAVE CHECKPOINT AT BATCH INTERVAL
 
-        print(f"saved mini checkpoint: {mini_checkpoint}")
-
         # Save checkpoints
         if self.validator.metrics.batch == len(self.train_loader):
             self.last.write_bytes(serialized_ckpt)  # save last.pt
