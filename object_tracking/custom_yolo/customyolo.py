@@ -59,7 +59,7 @@ class CustomYOLO(Model):
         **kwargs,
     ) -> List[CustomResults]:
         if not hasattr(self.predictor, "trackers"):
-            from customtrack import register_tracker
+            from customtracker import register_tracker
 
             register_tracker(self, persist)
         kwargs["conf"] = kwargs.get("conf") or 0.1  # ByteTrack-based method needs low confidence predictions as input

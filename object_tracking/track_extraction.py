@@ -12,8 +12,8 @@ from tqdm import tqdm
 sys.path.append('./custom_yolo/')
 from customyolo import CustomYOLO
 
-models_list = ['birds_planes_200e', 'full_dataset_100e', 'detect_best']
-label_idx_list = [(0, 1), (24, 9), (0, 1)]
+models_list = ['binary_augmented_ft', 'full_augmented_ft']
+label_idx_list = [(0, 1), (0, 1)] # (plane, bird)
 
 for model_path, label_idx in zip(models_list, label_idx_list):
     print('Woking on model {}'.format(model_path))
@@ -22,6 +22,8 @@ for model_path, label_idx in zip(models_list, label_idx_list):
         # No file in directory
         if len(files) == 0:
             continue
+
+        print('Working on directory {}'.format(root))
         
         # Formatting save path
         save_path1 = 'data_augmented' if 'augmented' in root else 'data'
@@ -33,11 +35,13 @@ for model_path, label_idx in zip(models_list, label_idx_list):
         else:
             save_path3 = 'clear'
 
-        print('Working on directory {}'.format(root))
+        # Create track directory
+        save_dir = '../../data/data/{}/{}/{}/{}'.format(model_path, save_path1, save_path2, save_path3)
+        os.makedirs(save_dir, exist_ok=True)
 
         for file in tqdm(files):
             # Pickle file exists
-            if os.path.isfile('../../data/data/{}/{}/{}/{}/{}'.format(model_path, save_path1, save_path2, save_path3, file + '.pt')):
+            if os.path.isfile('{}/{}'.format(save_dir, file + '.pt')):
                 continue
 
             if '.mp4' in file:
@@ -99,7 +103,7 @@ for model_path, label_idx in zip(models_list, label_idx_list):
 
                 # No object detected
                 if len(track_dict) == 0:
-                    with open('../../data/data/{}/{}/{}/{}/{}'.format(model_path, save_path1, save_path2, save_path3, file + '.pt'), 'wb') as pck:
+                    with open('{}/{}'.format(save_dir, file + '.pt'), 'wb') as pck:
                         pass
                     continue
 
@@ -116,7 +120,7 @@ for model_path, label_idx in zip(models_list, label_idx_list):
 
                 track_len_tensor = torch.tensor(track_len)
                 track_data_tensor = torch.tensor(np.array(track_data))
-
-                with open('../../data/data/{}/{}/{}/{}/{}'.format(model_path, save_path1, save_path2, save_path3, file + '.pt'), 'wb') as pck:
+                
+                with open('{}/{}'.format(save_dir, file + '.pt'), 'wb') as pck:
                     pickle.dump(track_len_tensor, pck)
                     pickle.dump(track_data_tensor, pck)

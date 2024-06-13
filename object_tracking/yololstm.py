@@ -24,8 +24,8 @@ class YoloLstm(nn.Module):
         self.softmax = nn.Softmax(dim=-1)
         self.loss_fn = nn.CrossEntropyLoss(weight=weight)
 
-        # Optimizer
-        self.optimizer = torch.optim.Adam(self.parameters(), lr=0.0001)
+        # Optimizer (Original lr = 0.0001)
+        self.optimizer = torch.optim.Adam(self.parameters(), lr=0.00005)
 
     def forward(self, data_zip, label):
         # Total prediction
