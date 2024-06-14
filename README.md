@@ -3,14 +3,15 @@ In this project, we utilize the Yolov8 model from Ultralytics, and pretrain them
 ![Overall pipeline](./model.PNG)
 ![The Yolo model](./yolo.PNG)
 
+
 # Notable Results
 | Task                                                              | Accuracy | F1 Score |
 |-------------------------------------------------------------------|----------|----------|
 | Video classification - pretrained + LSTM with augmented data      | 0.814    | 0.600    |
 | Full object detection - pretrained + LSTM with augmented data     | 0.530    | 0.434    |
 | Binary object detection - pretrained + LSTM with non-augmented data | 0.777    | 0.603    |
-| Binary object detection - pretrained + Finetuning + LSTM with augmented data | 0.777    | 0.494    |
 | Full object detection - pretrained + Finetuning + LSTM with augmented data  | 0.814    | 0.479    |
+| Binary object detection - pretrained + Finetuning + LSTM with augmented data | 0.777    | 0.494    |
 
 # Environment Requirements:
 * Torch
