@@ -1,0 +1,308 @@
+Working on model full_ft
+Not augmented dataset
+Epoch : 20 
+Train) loss : 1.1591752098769634, matrix : [[10, 7, 4], [79, 7, 6], [1, 0, 8]], correct : 25, wrong : 97
+Eval) loss : 1.1867637673752398, matrix : [[4, 4, 3], [55, 4, 6], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 40 
+Train) loss : 1.1583189692875104, matrix : [[69, 6, 5], [20, 8, 5], [1, 0, 8]], correct : 85, wrong : 37
+Eval) loss : 1.1860579883871512, matrix : [[43, 6, 3], [16, 2, 6], [2, 0, 3]], correct : 48, wrong : 33
+Epoch : 60 
+Train) loss : 1.157368036215175, matrix : [[78, 9, 4], [11, 5, 6], [1, 0, 8]], correct : 91, wrong : 31
+Eval) loss : 1.1852696468129769, matrix : [[50, 6, 5], [9, 2, 4], [2, 0, 3]], correct : 55, wrong : 26
+Epoch : 80 
+Train) loss : 1.1563523321623141, matrix : [[79, 10, 4], [10, 4, 6], [1, 0, 8]], correct : 91, wrong : 31
+Eval) loss : 1.18442014560267, matrix : [[54, 6, 5], [5, 2, 4], [2, 0, 3]], correct : 59, wrong : 22
+Epoch : 100 
+Train) loss : 1.155277276569841, matrix : [[82, 10, 5], [7, 4, 5], [1, 0, 8]], correct : 94, wrong : 28
+Eval) loss : 1.1835124608988365, matrix : [[54, 6, 4], [5, 2, 5], [2, 0, 3]], correct : 59, wrong : 22
+Epoch : 120 
+Train) loss : 1.1541328151318107, matrix : [[82, 10, 5], [7, 4, 5], [1, 0, 8]], correct : 94, wrong : 28
+Eval) loss : 1.1825335338766834, matrix : [[54, 6, 4], [5, 2, 5], [2, 0, 3]], correct : 59, wrong : 22
+Epoch : 140 
+Train) loss : 1.1528997117151656, matrix : [[83, 10, 5], [6, 4, 5], [1, 0, 8]], correct : 95, wrong : 27
+Eval) loss : 1.1814631877646697, matrix : [[57, 6, 4], [2, 2, 5], [2, 0, 3]], correct : 62, wrong : 19
+Epoch : 160 
+Train) loss : 1.1515524341806793, matrix : [[85, 10, 5], [4, 4, 5], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1802778730881525, matrix : [[58, 6, 4], [1, 2, 5], [2, 0, 3]], correct : 63, wrong : 18
+Epoch : 180 
+Train) loss : 1.1500577120575477, matrix : [[86, 11, 5], [3, 3, 5], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.178943984673571, matrix : [[59, 6, 4], [0, 2, 5], [2, 0, 3]], correct : 64, wrong : 17
+Epoch : 200 
+Train) loss : 1.1483713210554933, matrix : [[86, 11, 5], [3, 3, 5], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1774133820866093, matrix : [[59, 6, 4], [0, 2, 5], [2, 0, 3]], correct : 64, wrong : 17
+Epoch : 220 
+Train) loss : 1.146433322136049, matrix : [[86, 11, 5], [3, 3, 5], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1756201003230595, matrix : [[59, 6, 4], [0, 2, 5], [2, 0, 3]], correct : 64, wrong : 17
+Epoch : 240 
+Train) loss : 1.1441623343899114, matrix : [[86, 11, 6], [3, 3, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1734753667112603, matrix : [[59, 6, 4], [0, 2, 5], [2, 0, 3]], correct : 64, wrong : 17
+Epoch : 260 
+Train) loss : 1.1414467043616403, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1708558721299016, matrix : [[59, 6, 4], [0, 2, 5], [2, 0, 3]], correct : 64, wrong : 17
+Epoch : 280 
+Train) loss : 1.1381353084051244, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.167587446215139, matrix : [[59, 6, 4], [0, 2, 5], [2, 0, 3]], correct : 64, wrong : 17
+Epoch : 300 
+Train) loss : 1.1340512292441325, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1634499392311635, matrix : [[59, 6, 4], [0, 2, 5], [2, 0, 3]], correct : 64, wrong : 17
+Epoch : 320 
+Train) loss : 1.129105942088237, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.158291045875767, matrix : [[59, 6, 4], [0, 2, 5], [2, 0, 3]], correct : 64, wrong : 17
+Epoch : 340 
+Train) loss : 1.1236298849996762, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1524298308410794, matrix : [[59, 7, 4], [0, 1, 5], [2, 0, 3]], correct : 63, wrong : 18
+Epoch : 360 
+Train) loss : 1.1185487640200629, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.146905448638886, matrix : [[59, 7, 4], [0, 1, 5], [2, 0, 3]], correct : 63, wrong : 18
+Epoch : 380 
+Train) loss : 1.1148811482662981, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1426682875875391, matrix : [[59, 7, 4], [0, 1, 5], [2, 0, 3]], correct : 63, wrong : 18
+Epoch : 400 
+Train) loss : 1.1132803474964, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1400993523726795, matrix : [[59, 7, 4], [0, 1, 5], [2, 0, 3]], correct : 63, wrong : 18
+Epoch : 420 
+Train) loss : 1.1111821442311556, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.1368419549305755, matrix : [[59, 7, 4], [0, 1, 5], [2, 0, 3]], correct : 63, wrong : 18
+Epoch : 440 
+Train) loss : 1.1013205320313195, matrix : [[87, 12, 6], [2, 2, 4], [1, 0, 8]], correct : 97, wrong : 25
+Eval) loss : 1.12780189173868, matrix : [[58, 6, 4], [1, 2, 5], [2, 0, 3]], correct : 63, wrong : 18
+Epoch : 460 
+Train) loss : 1.0958967778532456, matrix : [[81, 9, 5], [8, 5, 5], [1, 0, 8]], correct : 94, wrong : 28
+Eval) loss : 1.126702311138456, matrix : [[54, 4, 3], [5, 4, 6], [2, 0, 3]], correct : 61, wrong : 20
+Epoch : 480 
+Train) loss : 1.0981012575637916, matrix : [[67, 3, 4], [22, 11, 6], [1, 0, 8]], correct : 86, wrong : 36
+Eval) loss : 1.1275298444605961, matrix : [[47, 3, 2], [12, 5, 7], [2, 0, 3]], correct : 55, wrong : 26
+Epoch : 500 
+Train) loss : 1.0692100221236525, matrix : [[79, 7, 4], [10, 7, 6], [1, 0, 8]], correct : 94, wrong : 28
+Eval) loss : 1.0985498178559323, matrix : [[53, 4, 2], [6, 4, 7], [2, 0, 3]], correct : 60, wrong : 21
+Augmented dataset
+Epoch : 20 
+Train) loss : 1.1501106107545558, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.0385280182884546, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 40 
+Train) loss : 1.1494640543343093, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.0380296487029985, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 60 
+Train) loss : 1.148731455590321, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.0374645329699632, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 80 
+Train) loss : 1.1479338570806565, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.0368430649573004, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 100 
+Train) loss : 1.1470744606040781, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.0361639598984174, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 120 
+Train) loss : 1.1461457270783106, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.0354179348268928, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 140 
+Train) loss : 1.1451332230997044, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.034584734140608, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 160 
+Train) loss : 1.1440152115512963, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.033635670168267, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 180 
+Train) loss : 1.1427626118182206, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.0325372650138112, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 200 
+Train) loss : 1.1413397143463004, matrix : [[0, 0, 0], [163, 35, 25], [4, 1, 23]], correct : 58, wrong : 193
+Eval) loss : 1.031252443106938, matrix : [[0, 0, 0], [59, 8, 9], [2, 0, 3]], correct : 11, wrong : 70
+Epoch : 220 
+Train) loss : 1.1397029400495784, matrix : [[4, 0, 0], [159, 35, 25], [4, 1, 23]], correct : 62, wrong : 189
+Eval) loss : 1.029735093990992, matrix : [[2, 0, 0], [57, 8, 9], [2, 0, 3]], correct : 13, wrong : 68
+Epoch : 240 
+Train) loss : 1.1377991552949376, matrix : [[6, 0, 0], [157, 35, 25], [4, 1, 23]], correct : 64, wrong : 187
+Eval) loss : 1.027918720076903, matrix : [[3, 0, 0], [56, 8, 9], [2, 0, 3]], correct : 14, wrong : 67
+Epoch : 260 
+Train) loss : 1.135568226529605, matrix : [[8, 0, 0], [155, 35, 25], [4, 1, 23]], correct : 66, wrong : 185
+Eval) loss : 1.0257016095673739, matrix : [[6, 0, 0], [53, 8, 9], [2, 0, 3]], correct : 17, wrong : 64
+Epoch : 280 
+Train) loss : 1.1329524370547022, matrix : [[11, 0, 0], [152, 35, 25], [4, 1, 23]], correct : 69, wrong : 182
+Eval) loss : 1.0229228558791803, matrix : [[9, 0, 0], [50, 8, 9], [2, 0, 3]], correct : 20, wrong : 61
+Epoch : 300 
+Train) loss : 1.1299118203666636, matrix : [[15, 0, 3], [148, 35, 22], [4, 1, 23]], correct : 73, wrong : 178
+Eval) loss : 1.0193370902471437, matrix : [[12, 0, 1], [47, 8, 8], [2, 0, 3]], correct : 23, wrong : 58
+Epoch : 320 
+Train) loss : 1.1263726700234709, matrix : [[30, 0, 3], [133, 35, 22], [4, 1, 23]], correct : 88, wrong : 163
+Eval) loss : 1.0145202568520872, matrix : [[20, 0, 1], [39, 8, 8], [2, 0, 3]], correct : 31, wrong : 50
+Epoch : 340 
+Train) loss : 1.121701448800367, matrix : [[58, 1, 3], [105, 34, 22], [4, 1, 23]], correct : 115, wrong : 136
+Eval) loss : 1.0071073303161024, matrix : [[29, 2, 1], [30, 6, 8], [2, 0, 3]], correct : 38, wrong : 43
+Epoch : 360 
+Train) loss : 1.1146658701837249, matrix : [[94, 1, 4], [69, 34, 21], [4, 1, 23]], correct : 151, wrong : 100
+Eval) loss : 0.9946804599513632, matrix : [[42, 3, 2], [17, 5, 7], [2, 0, 3]], correct : 50, wrong : 31
+Epoch : 380 
+Train) loss : 1.1070779037065868, matrix : [[116, 6, 8], [47, 29, 17], [4, 1, 23]], correct : 168, wrong : 83
+Eval) loss : 0.9796039635995961, matrix : [[48, 3, 2], [11, 5, 7], [2, 0, 3]], correct : 56, wrong : 25
+Epoch : 400 
+Train) loss : 1.0979764930260798, matrix : [[124, 14, 10], [39, 21, 15], [4, 1, 23]], correct : 168, wrong : 83
+Eval) loss : 0.9640074561360837, matrix : [[50, 3, 4], [9, 5, 5], [2, 0, 3]], correct : 58, wrong : 23
+Epoch : 420 
+Train) loss : 1.0813646411220017, matrix : [[113, 7, 7], [50, 28, 18], [4, 1, 23]], correct : 164, wrong : 87
+Eval) loss : 0.9510950270348955, matrix : [[46, 3, 3], [13, 5, 6], [2, 0, 3]], correct : 54, wrong : 27
+Epoch : 440 
+Train) loss : 1.081048304203926, matrix : [[99, 2, 6], [64, 33, 19], [4, 1, 23]], correct : 155, wrong : 96
+Eval) loss : 0.9577145522453794, matrix : [[42, 3, 2], [17, 5, 7], [2, 0, 3]], correct : 50, wrong : 31
+Epoch : 460 
+Train) loss : 1.0685478032926954, matrix : [[108, 7, 8], [55, 28, 17], [4, 1, 23]], correct : 159, wrong : 92
+Eval) loss : 0.940034160239951, matrix : [[45, 3, 3], [14, 5, 6], [2, 0, 3]], correct : 53, wrong : 28
+Epoch : 480 
+Train) loss : 1.0617040478290003, matrix : [[136, 15, 11], [27, 20, 14], [4, 1, 23]], correct : 179, wrong : 72
+Eval) loss : 0.9304150070280772, matrix : [[55, 4, 6], [4, 4, 3], [2, 0, 3]], correct : 62, wrong : 19
+Epoch : 500 
+Train) loss : 1.0743667974532751, matrix : [[146, 18, 13], [17, 17, 12], [4, 1, 23]], correct : 186, wrong : 65
+Eval) loss : 0.942854712526447, matrix : [[56, 5, 6], [3, 3, 3], [2, 0, 3]], correct : 62, wrong : 19
+Working on model full_augmented_ft
+Not augmented dataset
+Epoch : 20 
+Train) loss : 1.1005797887976925, matrix : [[90, 14, 17], [0, 0, 0], [0, 0, 1]], correct : 91, wrong : 31
+Eval) loss : 1.0560404431234136, matrix : [[60, 8, 11], [0, 0, 0], [1, 0, 1]], correct : 61, wrong : 20
+Epoch : 40 
+Train) loss : 1.0997780653587386, matrix : [[90, 14, 17], [0, 0, 0], [0, 0, 1]], correct : 91, wrong : 31
+Eval) loss : 1.0553964845756967, matrix : [[60, 8, 11], [0, 0, 0], [1, 0, 1]], correct : 61, wrong : 20
+Epoch : 60 
+Train) loss : 1.098896966401297, matrix : [[90, 13, 16], [0, 1, 1], [0, 0, 1]], correct : 92, wrong : 30
+Eval) loss : 1.0546907398887055, matrix : [[60, 5, 11], [0, 3, 0], [1, 0, 1]], correct : 64, wrong : 17
+Epoch : 80 
+Train) loss : 1.09796726309886, matrix : [[90, 12, 15], [0, 2, 2], [0, 0, 1]], correct : 93, wrong : 29
+Eval) loss : 1.053948425241179, matrix : [[59, 5, 11], [1, 3, 0], [1, 0, 1]], correct : 63, wrong : 18
+Epoch : 100 
+Train) loss : 1.0969947637804567, matrix : [[88, 10, 14], [2, 4, 3], [0, 0, 1]], correct : 93, wrong : 29
+Eval) loss : 1.0531644727340514, matrix : [[58, 4, 11], [2, 4, 0], [1, 0, 1]], correct : 63, wrong : 18
+Epoch : 120 
+Train) loss : 1.0959699427991942, matrix : [[84, 6, 13], [6, 8, 4], [0, 0, 1]], correct : 93, wrong : 29
+Eval) loss : 1.0523199251812938, matrix : [[55, 4, 10], [5, 4, 1], [1, 0, 1]], correct : 60, wrong : 21
+Epoch : 140 
+Train) loss : 1.0948746289512687, matrix : [[81, 5, 13], [9, 9, 4], [0, 0, 1]], correct : 91, wrong : 31
+Eval) loss : 1.0513948736095855, matrix : [[53, 3, 9], [7, 5, 2], [1, 0, 1]], correct : 59, wrong : 22
+Epoch : 160 
+Train) loss : 1.0936843393225752, matrix : [[78, 3, 12], [12, 11, 5], [0, 0, 1]], correct : 90, wrong : 32
+Eval) loss : 1.050365102269556, matrix : [[49, 2, 7], [11, 6, 4], [1, 0, 1]], correct : 56, wrong : 25
+Epoch : 180 
+Train) loss : 1.092366016559412, matrix : [[77, 2, 11], [13, 12, 6], [0, 0, 1]], correct : 90, wrong : 32
+Eval) loss : 1.0491934066813886, matrix : [[45, 2, 6], [15, 6, 5], [1, 0, 1]], correct : 52, wrong : 29
+Epoch : 200 
+Train) loss : 1.0908750828503828, matrix : [[76, 1, 8], [14, 13, 9], [0, 0, 1]], correct : 90, wrong : 32
+Eval) loss : 1.0478288935765199, matrix : [[45, 2, 5], [15, 6, 6], [1, 0, 1]], correct : 52, wrong : 29
+Epoch : 220 
+Train) loss : 1.0891511986688749, matrix : [[75, 1, 7], [15, 13, 10], [0, 0, 1]], correct : 89, wrong : 33
+Eval) loss : 1.0462067271064812, matrix : [[45, 2, 4], [15, 6, 7], [1, 0, 1]], correct : 52, wrong : 29
+Epoch : 240 
+Train) loss : 1.087109646335906, matrix : [[74, 1, 7], [16, 13, 10], [0, 0, 1]], correct : 88, wrong : 34
+Eval) loss : 1.0442371200956428, matrix : [[46, 2, 4], [14, 6, 7], [1, 0, 1]], correct : 53, wrong : 28
+Epoch : 260 
+Train) loss : 1.0846257335961165, matrix : [[74, 1, 7], [16, 13, 10], [0, 0, 1]], correct : 88, wrong : 34
+Eval) loss : 1.0417869160581372, matrix : [[46, 2, 4], [14, 6, 7], [1, 0, 1]], correct : 53, wrong : 28
+Epoch : 280 
+Train) loss : 1.0815056982869917, matrix : [[74, 1, 7], [16, 13, 10], [0, 0, 1]], correct : 88, wrong : 34
+Eval) loss : 1.0386470547459414, matrix : [[46, 2, 4], [14, 6, 7], [1, 0, 1]], correct : 53, wrong : 28
+Epoch : 300 
+Train) loss : 1.0774289658163707, matrix : [[75, 1, 6], [15, 13, 11], [0, 0, 1]], correct : 89, wrong : 33
+Eval) loss : 1.0344658600686079, matrix : [[46, 2, 4], [14, 6, 7], [1, 0, 1]], correct : 53, wrong : 28
+Epoch : 320 
+Train) loss : 1.0718332089626426, matrix : [[75, 1, 7], [15, 13, 10], [0, 0, 1]], correct : 89, wrong : 33
+Eval) loss : 1.0286093135531662, matrix : [[47, 2, 4], [13, 6, 7], [1, 0, 1]], correct : 54, wrong : 27
+Epoch : 340 
+Train) loss : 1.06369915579296, matrix : [[75, 2, 7], [15, 12, 10], [0, 0, 1]], correct : 88, wrong : 34
+Eval) loss : 1.0198613121575653, matrix : [[49, 2, 5], [11, 6, 6], [1, 0, 1]], correct : 56, wrong : 25
+Epoch : 360 
+Train) loss : 1.0512975516313847, matrix : [[75, 2, 8], [15, 12, 9], [0, 0, 1]], correct : 88, wrong : 34
+Eval) loss : 1.0059427661772982, matrix : [[50, 2, 5], [10, 6, 6], [1, 0, 1]], correct : 57, wrong : 24
+Epoch : 380 
+Train) loss : 1.0327172784768501, matrix : [[77, 2, 8], [13, 12, 9], [0, 0, 1]], correct : 90, wrong : 32
+Eval) loss : 0.9839053573833517, matrix : [[50, 2, 6], [10, 6, 5], [1, 0, 1]], correct : 57, wrong : 24
+Epoch : 400 
+Train) loss : 1.0104847480395012, matrix : [[79, 4, 8], [11, 10, 9], [0, 0, 1]], correct : 90, wrong : 32
+Eval) loss : 0.9555328694035261, matrix : [[52, 2, 6], [8, 6, 5], [1, 0, 1]], correct : 59, wrong : 22
+Epoch : 420 
+Train) loss : 0.9956797690781256, matrix : [[79, 4, 8], [11, 10, 9], [0, 0, 1]], correct : 90, wrong : 32
+Eval) loss : 0.9306437406961435, matrix : [[51, 2, 6], [9, 6, 5], [1, 0, 1]], correct : 58, wrong : 23
+Epoch : 440 
+Train) loss : 0.9856603457511915, matrix : [[75, 3, 7], [15, 11, 10], [0, 0, 1]], correct : 87, wrong : 35
+Eval) loss : 0.9131765515686107, matrix : [[49, 1, 4], [11, 7, 7], [1, 0, 1]], correct : 57, wrong : 24
+Epoch : 460 
+Train) loss : 0.9839665366917862, matrix : [[62, 2, 3], [28, 12, 14], [0, 0, 1]], correct : 75, wrong : 47
+Eval) loss : 0.917964460772149, matrix : [[44, 0, 3], [16, 8, 8], [1, 0, 1]], correct : 53, wrong : 28
+Epoch : 480 
+Train) loss : 0.9923976251335825, matrix : [[56, 1, 1], [34, 13, 16], [0, 0, 1]], correct : 70, wrong : 52
+Eval) loss : 0.9248613651659852, matrix : [[41, 0, 1], [19, 8, 10], [1, 0, 1]], correct : 50, wrong : 31
+Epoch : 500 
+Train) loss : 0.9828912414808486, matrix : [[64, 2, 2], [26, 12, 15], [0, 0, 1]], correct : 77, wrong : 45
+Eval) loss : 0.9029218360316444, matrix : [[45, 0, 2], [15, 8, 9], [1, 0, 1]], correct : 54, wrong : 27
+Augmented dataset
+Epoch : 20 
+Train) loss : 1.0965387877263573, matrix : [[59, 1, 2], [106, 35, 36], [2, 0, 10]], correct : 104, wrong : 147
+Eval) loss : 0.9676193894057363, matrix : [[30, 1, 1], [30, 7, 10], [1, 0, 1]], correct : 38, wrong : 43
+Epoch : 40 
+Train) loss : 1.095577210610973, matrix : [[64, 0, 2], [101, 36, 36], [2, 0, 10]], correct : 110, wrong : 141
+Eval) loss : 0.9669280815938336, matrix : [[32, 1, 1], [28, 7, 10], [1, 0, 1]], correct : 40, wrong : 41
+Epoch : 60 
+Train) loss : 1.094489575716678, matrix : [[68, 0, 2], [97, 36, 36], [2, 0, 10]], correct : 114, wrong : 137
+Eval) loss : 0.9661383107417238, matrix : [[33, 1, 1], [27, 7, 10], [1, 0, 1]], correct : 41, wrong : 40
+Epoch : 80 
+Train) loss : 1.0933077423399775, matrix : [[75, 0, 3], [90, 36, 35], [2, 0, 10]], correct : 121, wrong : 130
+Eval) loss : 0.9652675421219638, matrix : [[34, 1, 1], [26, 7, 10], [1, 0, 1]], correct : 42, wrong : 39
+Epoch : 100 
+Train) loss : 1.0920354740489606, matrix : [[77, 0, 3], [88, 36, 35], [2, 0, 10]], correct : 123, wrong : 128
+Eval) loss : 0.9643064932726813, matrix : [[34, 0, 1], [26, 8, 10], [1, 0, 1]], correct : 43, wrong : 38
+Epoch : 120 
+Train) loss : 1.0906582544236438, matrix : [[83, 0, 3], [82, 36, 35], [2, 0, 10]], correct : 129, wrong : 122
+Eval) loss : 0.9632340248949194, matrix : [[35, 0, 1], [25, 8, 10], [1, 0, 1]], correct : 44, wrong : 37
+Epoch : 140 
+Train) loss : 1.0891485442697466, matrix : [[84, 0, 4], [81, 36, 34], [2, 0, 10]], correct : 130, wrong : 121
+Eval) loss : 0.9620153968178824, matrix : [[35, 0, 1], [25, 8, 10], [1, 0, 1]], correct : 44, wrong : 37
+Epoch : 160 
+Train) loss : 1.087465923104062, matrix : [[87, 0, 4], [78, 36, 34], [2, 0, 10]], correct : 133, wrong : 118
+Eval) loss : 0.9606003064026306, matrix : [[37, 1, 2], [23, 7, 9], [1, 0, 1]], correct : 45, wrong : 36
+Epoch : 180 
+Train) loss : 1.0855562795015476, matrix : [[90, 0, 4], [75, 36, 34], [2, 0, 10]], correct : 136, wrong : 115
+Eval) loss : 0.9589308497385387, matrix : [[42, 1, 2], [18, 7, 9], [1, 0, 1]], correct : 50, wrong : 31
+Epoch : 200 
+Train) loss : 1.0833474651210173, matrix : [[92, 1, 6], [73, 35, 32], [2, 0, 10]], correct : 137, wrong : 114
+Eval) loss : 0.9569314245559084, matrix : [[45, 1, 2], [15, 7, 9], [1, 0, 1]], correct : 53, wrong : 28
+Epoch : 220 
+Train) loss : 1.080736409667461, matrix : [[99, 1, 6], [66, 35, 32], [2, 0, 10]], correct : 144, wrong : 107
+Eval) loss : 0.9544812995445584, matrix : [[46, 1, 2], [14, 7, 9], [1, 0, 1]], correct : 54, wrong : 27
+Epoch : 240 
+Train) loss : 1.0775647814596374, matrix : [[103, 1, 6], [62, 35, 32], [2, 0, 10]], correct : 148, wrong : 103
+Eval) loss : 0.9513832699532255, matrix : [[47, 1, 3], [13, 7, 8], [1, 0, 1]], correct : 55, wrong : 26
+Epoch : 260 
+Train) loss : 1.0735714334515984, matrix : [[107, 1, 6], [58, 35, 32], [2, 0, 10]], correct : 152, wrong : 99
+Eval) loss : 0.9473044756300336, matrix : [[48, 1, 3], [12, 7, 8], [1, 0, 1]], correct : 56, wrong : 25
+Epoch : 280 
+Train) loss : 1.0682910777200316, matrix : [[115, 1, 6], [50, 35, 32], [2, 0, 10]], correct : 160, wrong : 91
+Eval) loss : 0.9416350868817696, matrix : [[49, 1, 3], [11, 7, 8], [1, 0, 1]], correct : 57, wrong : 24
+Epoch : 300 
+Train) loss : 1.0608347007178285, matrix : [[131, 3, 7], [34, 33, 31], [2, 0, 10]], correct : 174, wrong : 77
+Eval) loss : 0.9331738806292503, matrix : [[52, 1, 3], [8, 7, 8], [1, 0, 1]], correct : 60, wrong : 21
+Epoch : 320 
+Train) loss : 1.0494397120079673, matrix : [[140, 5, 9], [25, 31, 29], [2, 0, 10]], correct : 181, wrong : 70
+Eval) loss : 0.9195337995033473, matrix : [[53, 2, 3], [7, 6, 8], [1, 0, 1]], correct : 60, wrong : 21
+Epoch : 340 
+Train) loss : 1.0311902335176335, matrix : [[143, 6, 10], [22, 30, 28], [2, 0, 10]], correct : 183, wrong : 68
+Eval) loss : 0.8974281911037705, matrix : [[55, 2, 5], [5, 6, 6], [1, 0, 1]], correct : 62, wrong : 19
+Epoch : 360 
+Train) loss : 1.005677462550681, matrix : [[146, 6, 9], [19, 30, 29], [2, 0, 10]], correct : 186, wrong : 65
+Eval) loss : 0.8693960364042572, matrix : [[55, 3, 5], [5, 5, 6], [1, 0, 1]], correct : 61, wrong : 20
+Epoch : 380 
+Train) loss : 0.9796627773582879, matrix : [[140, 4, 9], [25, 32, 29], [2, 0, 10]], correct : 182, wrong : 69
+Eval) loss : 0.8458700926697953, matrix : [[54, 1, 3], [6, 7, 8], [1, 0, 1]], correct : 62, wrong : 19
+Epoch : 400 
+Train) loss : 0.9593337770021937, matrix : [[132, 2, 8], [33, 34, 30], [2, 0, 10]], correct : 176, wrong : 75
+Eval) loss : 0.8374253574238589, matrix : [[51, 1, 3], [9, 7, 8], [1, 0, 1]], correct : 59, wrong : 22
+Epoch : 420 
+Train) loss : 0.9411325411562076, matrix : [[145, 4, 10], [20, 32, 28], [2, 0, 10]], correct : 187, wrong : 64
+Eval) loss : 0.8298921793335332, matrix : [[53, 2, 5], [7, 6, 6], [1, 0, 1]], correct : 60, wrong : 21
+Epoch : 440 
+Train) loss : 0.9384006391915519, matrix : [[150, 7, 12], [15, 29, 25], [2, 0, 11]], correct : 190, wrong : 61
+Eval) loss : 0.8258605427413238, matrix : [[55, 3, 9], [5, 5, 2], [1, 0, 1]], correct : 61, wrong : 20
+Epoch : 460 
+Train) loss : 0.9282894690518657, matrix : [[145, 5, 11], [20, 31, 26], [2, 0, 11]], correct : 187, wrong : 64
+Eval) loss : 0.8150670134172401, matrix : [[54, 2, 5], [6, 6, 6], [1, 0, 1]], correct : 61, wrong : 20
+Epoch : 480 
+Train) loss : 0.9236102870080959, matrix : [[131, 2, 6], [34, 34, 31], [2, 0, 11]], correct : 176, wrong : 75
+Eval) loss : 0.8216945843758161, matrix : [[48, 1, 3], [12, 7, 8], [1, 0, 1]], correct : 56, wrong : 25
+Epoch : 500 
+Train) loss : 0.9358604966324415, matrix : [[114, 1, 5], [51, 35, 31], [2, 0, 12]], correct : 161, wrong : 90
+Eval) loss : 0.8206620724014995, matrix : [[43, 0, 3], [17, 8, 8], [1, 0, 1]], correct : 52, wrong : 29
+Working on model full_dataset_100e.pt
+Not augmented dataset
