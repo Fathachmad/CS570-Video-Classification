@@ -1,8 +1,16 @@
 # CS570-Project
-In this project, we experiment utilize the Yolov8 model from Ultralytics, and pretrain them on object detection task. We also develop LSTM model that feature the object tracking from Yolo to see if it improves the performance. Finally, we implemented data augmentation method from VideoMix that we apply on privately owned dataset.
+In this project, we utilize the Yolov8 model from Ultralytics, and pretrain them on object detection task. We also develop LSTM model that feature the object tracking from Yolo to see if it improves the performance. Finally, we implemented data augmentation method from VideoMix that we apply on privately owned dataset.
 ![Overall pipeline](./model.PNG)
 ![The Yolo model](./yolo.PNG)
 
+# Notable Results
+| Task                                                              | Accuracy | F1 Score |
+|-------------------------------------------------------------------|----------|----------|
+| Video classification - pretrained + LSTM with augmented data      | 0.814    | 0.600    |
+| Full object detection - pretrained + LSTM with augmented data     | 0.530    | 0.434    |
+| Binary object detection - pretrained + LSTM with non-augmented data | 0.777    | 0.603    |
+| Binary object detection - pretrained + Finetuning + LSTM with augmented data | 0.777    | 0.494    |
+| Full object detection - pretrained + Finetuning + LSTM with augmented data  | 0.814    | 0.479    |
 
 # Environment Requirements:
 * Torch
@@ -42,4 +50,3 @@ In this project, we experiment utilize the Yolov8 model from Ultralytics, and pr
   - bias_testing.ipynb
   - custom_eval.py
   - plotter.ipynb
-```
