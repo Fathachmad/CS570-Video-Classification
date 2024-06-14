@@ -1,5 +1,7 @@
 # CS570-Project
 In this project, we experiment utilize the Yolov8 model from Ultralytics, and pretrain them on object detection task. We also develop LSTM model that feature the object tracking from Yolo to see if it improves the performance. Finally, we implemented data augmentation method from VideoMix that we apply on privately owned dataset.
+![Overall pipeline](./model.png)
+![The Yolo model](./yolo.png)
 
 
 # Environment Requirements:
