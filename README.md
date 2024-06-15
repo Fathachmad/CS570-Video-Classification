@@ -30,15 +30,11 @@ In this project, we utilize the Yolov8 model from Ultralytics, and pretrain them
   - dataset.py
 
 - **Object Tracking for YOLO**
-  - object_tracking/custom_yolo/customops.py
-  - object_tracking/custom_yolo/custompredictor.py
-  - object_tracking/custom_yolo/customresults.py
-  - object_tracking/custom_yolo/customtracker.py
-  - object_tracking/custom_yolo/customyolo.py
-  - object_tracking/score_calc.py
+  - object_tracking/custom_yolo/
   - object_tracking/track_checker.py
   - object_tracking/track_extraction.py
   - object_tracking/yololstm.py
+  - object_tracking/lstm_train.py
   - model.py
 
 - **Finetuning**
